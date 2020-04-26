@@ -19,7 +19,7 @@ ul{
 li{
     list-style: none;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "",sans-serif;
     padding-bottom:0.5rem;
     padding-right: 1rem;
     float:left;
@@ -68,5 +68,9 @@ button{
     max-height: rem;
 }
 footer{
-    
+    background-color:;
+    color:;
+    font-family:"", sans-serif ;
+    padding:rem;
+    margin:;
 }
