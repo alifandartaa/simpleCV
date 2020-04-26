@@ -1,0 +1,34 @@
+header{
+    background-color: azure;
+    
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.content{
+
+}
+h1{
+    font-family: "",sans-serif;
+    font-sizerem;
+}
+p{
+    font-family: "";
+    font-size;
+
+}
+button{
+    color:#fff;
+    background-color: blue;
+    border-radius: 1rem;
+    border-style: none;
+    padding:0.5rem 1rem;
+}
+.right-image{
+
+}
+footer{
+
+}
