@@ -1,76 +1,152 @@
-header{
-    padding:0.5rem;
-    background-color: azure;
-    position: relative;
-    height:2.5rem;
+@font-face {
+    font-family: MonserratRegular;
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
 }
-header .logo{
+
+@font-face {
+    font-family: MonserratSemiBold;
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: MonserratRegular;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo {
+    float: left;
+    width: 50px;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(6, 107, 240, 0.425);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(6, 193, 240, 0.493);
+}
+
+.header-right a {
+    line-height: 33px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #4B5DB8;
+    display: block;
+    float: left;
+}
+
+.header-left a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #4B5DB8;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.item-header {
+    margin-top: 0px;
+    font-family: MonserratSemiBold;
+}
+
+.login #login{
+    font-family: MonserratSemiBold;
+}
+
+.header-left:hover {
+    background-color: rgba(6, 193, 240, 0.493);
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-color: #D7D7D7;
+    background-size: cover;
+    text-align: left;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
     position: absolute;
-    min-width: rem;
-    max-width: rem;
-    min-height: rem;
-    max-height: rem;
+    margin-left: 6rem;
+    top: 0;
 }
-ul{
-    position: absolute;
-    margin-left:6rem;
-    top:0;
-}
-li{
+
+li {
     list-style: none;
     font-weight: bold;
-    font-family: "",sans-serif;
-    padding-bottom:0.5rem;
+    font-family: "", sans-serif;
+    padding-bottom: 0.5rem;
     padding-right: 1rem;
-    float:left;
-    margin:0;
+    float: left;
+    margin: 0;
 }
 
-li:hover{
-    color:purple;
+li:hover {
+    color: purple;
 }
 
-.content{
+.content {
     position: relative;
     background-color: whitesmoke;
-    margin:0rem;
-    padding:3rem 3rem 30rem 3rem;
+    margin: 0rem;
+    padding: 3rem 3rem 30rem 3rem;
 }
-.text-wrapper{
-    margin:0;
-    padding:0;
+
+.text-wrapper {
+    margin: 0;
+    padding: 0;
 }
-h1{
-    font-family: "",sans-serif;
-    font-size:rem;
-}
-h1 span{
-    color:purple;
-}
-p{
-    font-family: "",sans-serif;
-    font-size:rem;
-    margin:2rem 0rem;
-}
-button{
-    color:#fff;
-    background-color: blue;
-    border-radius: 1rem;
+
+button {
+    color: #fff;
+    background-color: #4B5DB8;
+    border-radius: 10px;
     border-style: none;
-    padding:0.5rem 1rem;
-    font-family: "",sans-serif;
+    padding: 0.5rem 1rem;
+    font-family: "", sans-serif;
 }
-.right-image{
-    position: absolute;
-    min-width: rem;
-    max-width: rem;
-    min-height: rem;
-    max-height: rem;
+
+.text-button{
+    font-family: MonserratSemiBold;
+    font-size: 15px;
 }
-footer{
-    background-color:;
-    color:;
-    font-family:"", sans-serif ;
-    padding:rem;
-    margin:;
+
+h1{
+    font-family: MonserratSemiBold;
+    font-size: 2.5rem;
+    padding-left: 200px;
+}
+
+h3{
+    font-size: 1rem;
+    padding-left: 200px;
+}
+
+button{
+    margin-left: 200px;
 }
