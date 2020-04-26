@@ -1,23 +1,49 @@
 header{
+    padding:1rem;
     background-color: azure;
-    
+    position: relative;
+    height:2rem;
+}
+header .logo{
+    position: absolute;
+    min-width: rem;
+    max-width: rem;
+    min-height: rem;
+    max-height: rem;
+}
+ul{
+    position: absolute;
+    margin-left:7rem;
 }
 li{
     list-style: none;
     font-weight: bold;
     font-family: sans-serif;
+    padding:0.5rem;
+    float:left;
+    margin:auto;
 }
-.content{
 
+li:hover{
+    color:purple;
+}
+
+.content{
+    background-color: whitesmoke;
+    margin:0rem;
+    padding:3rem 3rem 30rem 3rem;
 }
 h1{
     font-family: "",sans-serif;
-    font-sizerem;
+    font-size:rem;
+}
+h1 span{
+    color:purple;
 }
 p{
-    font-family: "";
-    font-size;
-
+    font-family: "",sans-serif;
+    font-size:rem;
+    margin:2rem 0rem;
 }
 button{
     color:#fff;
@@ -25,10 +51,14 @@ button{
     border-radius: 1rem;
     border-style: none;
     padding:0.5rem 1rem;
+    font-family: "",sans-serif;
 }
 .right-image{
-
+    min-width: rem;
+    max-width: rem;
+    min-height: rem;
+    max-height: rem;
 }
 footer{
-
+    
 }
