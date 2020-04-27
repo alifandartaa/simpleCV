@@ -36,7 +36,7 @@
 
     <div class="top-wrapper">
         <div class="container">
-            <h1>Hey, We Are <span>Team A4</span></h1>
+            <h1>Hey, We Are <span>A4 Team</span></h1>
             <h1>Digitalent Scholarship</h1>
             <h3>We are web programmers, you can see </h3>
             <h3>more about us by checking our CV</h3>
@@ -56,16 +56,16 @@
         </ul>
     </div>
     <div class="contact-form">
-        <form action="contact.php">
+        <form action="contact.php" method="POST">
             <h1> Yuk Beri Saran ke Kami </h1>
             <div class="input-fields">
-                <input type="text" class="input" placeholder="Nama Lengkap" required>
-                <input type="email" class="input" placeholder="Alamat Email" required>
-                <input type="tel" class="input" placeholder="No. Handphone" required>
+                <input type="text" class="input" name="name" placeholder="Nama Lengkap" required>
+                <input type="email" class="input" name="email" placeholder="Alamat Email" required>
+                <input type="tel" class="input" name="handhphone" placeholder="No. Handphone" required>
             </div>
             <div class="msg">
-                <textarea placeholder="Saran"></textarea>
-                <div class="btn"><button value="submit">
+                <textarea name="saran" placeholder="Saran"></textarea>
+                <div class="btn"><button type="submit" value="submit" required>
                         Kirim
                     </button></div>
             </div>
