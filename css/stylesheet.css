@@ -240,8 +240,8 @@ button {
 
 .footer-layout {
     height: 10rem;
-    background-color: blueviolet;
-    font-family: sans-serif;
+    background-color: #3949AB;
+    font-family: 'Rubik', sans-serif;
     color: white;
 }
 
@@ -250,14 +250,27 @@ button {
     text-align: center;
     float: left;
     padding-left: 1rem;
-}
-
-.footer-logo h1 {
-    font-family: Impact;
-    padding-top: 1rem;
+    padding-top: 2.2rem;
 }
 
 .footer-info {
+    padding-top: 0.1rem;
+}
+
+/* li footer */
+.footer-info li {
+    list-style: none;
     float: right;
-    padding-right: 1rem;
+    clear: right;/*memberikan rata kanan pada list*/
+    padding-top: 1rem;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: white;
+    padding-right: 3rem;
+}
+
+.footer-info a:hover{
+    text-decoration: underline;
 }
