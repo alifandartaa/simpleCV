@@ -69,7 +69,7 @@ header .logo {
     font-family: MonserratSemiBold;
 }
 
-.login #login{
+.login #login {
     font-family: MonserratSemiBold;
 }
 
@@ -132,108 +132,111 @@ button {
     margin-left: 200px;
 }
 
-.text-button{
+.text-button {
     font-family: MonserratSemiBold;
     font-size: 15px;
 }
 
-.top-wrapper .container h1{
+.top-wrapper .container h1 {
     font-family: MonserratSemiBold;
     font-size: 2.5rem;
     padding-left: 200px;
 }
 
-.top-wrapper .container h1 span{
-    color:purple;
+.top-wrapper .container h1 span {
+    color: purple;
 }
 
-.top-wrapper .container h3{
+.top-wrapper .container h3 {
     font-size: 1rem;
     padding-left: 200px;
 }
 
-.profile{
+.profile {
     text-align: center;
 }
-.contact-form{
-  text-align: center;
-  max-width: 550px;
-  margin: 45px auto;
-  background: blueviolet;
-  opacity:0.85;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+.contact-form {
+    text-align: center;
+    max-width: 550px;
+    margin: 45px auto;
+    background: blueviolet;
+    opacity: 0.85;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-form h1 {
- color: #ffff
+    color: #ffff
 }
 
-.input-fields{
- padding-top: 20px
- display: flex;
- flex-direction: column;
- margin-right: 2%;
+.input-fields {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
 }
 
 .input-fields,
-.msg{
- width: 100%;
+.msg {
+    width: 100%;
 }
 
 .input-fields .input,
-.msg textarea{
- margin: 10px 0;
- background: transparent;
- border: 0px;
- border-bottom: 2px solid #c5ecfd;
- padding: 10px;
- color: white;
- width: 100%;
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: white;
+    width: 100%;
 }
 
-.msg textarea{
- height: 200px;
+.msg textarea {
+    height: 200px;
 }
 
 ::-webkit-input-placeholder {
- color: white;
+    color: white;
 
 }
+
 ::-moz-placeholder {
- color: #c5ecfd;
+    color: #c5ecfd;
 
 }
+
 :-ms-input-placeholder {
- color: #c5ecfd;
+    color: #c5ecfd;
 }
 
 .btn {
-   background: white;
-   opacity: 0.8;
-   text-align: center;
-   padding: 15px;
-   border-radius: 5px;
-   color: blueviolet;
-   font-weight: bold;
-   cursor: pointer;
-   text-transform: uppercase;
+    background: white;
+    opacity: 0.8;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px){
- .contact-form{
-   flex-direction: column;
- }
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
 
- .msg textarea{
-   height: 80px;
- }
+    .msg textarea {
+        height: 80px;
+    }
 
- .input-fields,
- .msg{
-   width: 100%;
- }
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
 }
 
 .footer-layout {
@@ -242,16 +245,19 @@ button {
     font-family: sans-serif;
     color: white;
 }
+
 .footer-logo {
     width: 10rem;
     text-align: center;
     float: left;
     padding-left: 1rem;
 }
+
 .footer-logo h1 {
     font-family: Impact;
     padding-top: 1rem;
 }
+
 .footer-info {
     float: right;
     padding-right: 1rem;
