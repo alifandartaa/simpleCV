@@ -254,15 +254,13 @@ button {
 }
 
 .footer-info {
-    padding-top: 0.1rem;
+    padding-top: 0.6rem;
 }
 
 /* li footer */
-.footer-info li {
-    list-style: none;
-    float: right;
-    clear: right;/*memberikan rata kanan pada list*/
-    padding-top: 1rem;
+.footer-info p {
+    text-align: right;
+    padding-bottom: 0.4rem;
 }
 
 .footer-info a{
