@@ -129,6 +129,7 @@ button {
     border-style: none;
     padding: 0.5rem 1rem;
     font-family: "", sans-serif;
+    margin-left: 200px;
 }
 
 .text-button{
@@ -136,21 +137,35 @@ button {
     font-size: 15px;
 }
 
-h1{
+.top-wrapper .container h1{
     font-family: MonserratSemiBold;
     font-size: 2.5rem;
     padding-left: 200px;
 }
 
-h1 span{
+.top-wrapper .container h1 span{
     color:purple;
 }
 
-h3{
+.top-wrapper .container h3{
     font-size: 1rem;
     padding-left: 200px;
 }
 
-button{
-    margin-left: 200px;
+.profile{
+    background-color:whitesmoke;
+    margin: auto;
+}
+
+footer{
+    height: 8rem;
+    background-color:blueviolet;
+    color:white;
+}
+.footer-left{
+    float:left;
+}
+.footer-right{
+    text-align: right;
+
 }
