@@ -155,6 +155,86 @@ button {
 .profile{
     text-align: center;
 }
+.contact-form{
+  text-align: center;
+  max-width: 550px;
+  margin: 45px auto;
+  background: blueviolet;
+  opacity:0.85;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.contact-form h1 {
+ color: #ffff
+}
+
+.input-fields{
+ padding-top: 20px
+ display: flex;
+ flex-direction: column;
+ margin-right: 2%;
+}
+
+.input-fields,
+.msg{
+ width: 100%;
+}
+
+.input-fields .input,
+.msg textarea{
+ margin: 10px 0;
+ background: transparent;
+ border: 0px;
+ border-bottom: 2px solid #c5ecfd;
+ padding: 10px;
+ color: blueviolet;
+ width: 100%;
+}
+
+.msg textarea{
+ height: 200px;
+}
+
+::-webkit-input-placeholder {
+ color: white;
+
+}
+::-moz-placeholder {
+ color: #c5ecfd;
+
+}
+:-ms-input-placeholder {
+ color: #c5ecfd;
+}
+
+.btn {
+   background: white;
+   opacity: 0.8;
+   text-align: center;
+   padding: 15px;
+   border-radius: 5px;
+   color: blueviolet;
+   font-weight: bold;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+ .contact-form{
+   flex-direction: column;
+ }
+
+ .msg textarea{
+   height: 80px;
+ }
+
+ .input-fields,
+ .msg{
+   width: 100%;
+ }
+}
 
 .footer-layout {
     height: 10rem;
