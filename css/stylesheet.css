@@ -152,11 +152,15 @@ button {
     padding-left: 200px;
 }
 
+.profile{
+    text-align: center;
+}
+
 .footer-layout {
     height: 10rem;
-    background-color: palevioletred;
+    background-color: blueviolet;
     font-family: sans-serif;
-    color: darkblue;
+    color: white;
 }
 .footer-logo {
     width: 10rem;
