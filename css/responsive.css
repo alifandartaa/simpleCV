@@ -1,0 +1,34 @@
+@media screen and (max-width: 1000px) {
+
+    /*header*/
+
+    .header-left a {
+        padding: 0 5px;
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+
+    /*header*/
+    
+    .header-left a {
+        display: none;
+    }
+
+    /*kotak saran*/
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .msg textarea {
+        height: 80px;
+    }
+
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+
+}
