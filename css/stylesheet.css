@@ -8,6 +8,31 @@
     src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
 }
 
+
+  @media (min-width: 375px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+  @media (min-width: 425px) {
+    html {
+      font-size: 80%;
+    }
+  }
+
+  @media (min-width: 480px) {
+    html {
+      font-size: 85%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 100%;
+    }
+  }
+
 * {
     box-sizing: border-box;
     font-family: MonserratRegular;
@@ -131,7 +156,7 @@ button {
 
 .text-button {
     font-family: MonserratSemiBold;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .top-wrapper .container h1 {
